@@ -9,6 +9,9 @@
     "strictPropertyInitialization": false,
     "baseUrl": "./src",
     "paths": {
+      "@/configs/*": ["configs/*"],
+      "@/libs/*": ["libs/*"],
+      "@/modules/*": ["modules/*"],
       "@/types/*": ["types/*"]
     },
     "esModuleInterop": true,
